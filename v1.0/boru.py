@@ -40,7 +40,7 @@ def do_post():
     course = request.forms.get('field4')
     sensor = request.forms.get('field5')
     tag = request.forms.get('field6')
-    #beginDate = request.forms.get('field7')
+    ###beginDate = request.forms.get('field7')
     endDate = request.forms.get('field8')
     timezone = request.forms.get('field9')
 
